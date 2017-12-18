@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Counter Counter</title>
+</head>
+<body>
+	<h1 align="center">Counter Counter</h1>
+	<br>
+	
+	
+	<Form name="counter details" action=submit.php method=post>
+			<div align=center>
+				I am:&nbsp;&nbsp;
+				<select name=emp size=1>
+					<option selected disabled value=NA>Employee</option>
+					<option value=keri>Keri</option>
+					<option value=ian>Ian</option>
+					<option value=will>Will</option>
+					<option value=other>Other</option>
+				</select>
+			</div>
+			
+		<br>
+		
+			<div align=center>
+				Called ahead:&nbsp;&nbsp;
+				<select name=clnt_notice size=1>
+					<option selected disabled value=NA>Notice</option>
+					<option value=yes>Yes</option>
+					<option value=no>No</option>
+					<option value=unsure>Unsure</option>
+				</select>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				Type:&nbsp;&nbsp;
+				<select name=clnt_type size=1>
+					<option selected disabled value=NA>Client Type</option>
+					<option value=residential>Residential</option>
+					<option value=business>Business</option>
+					<option value=contract>Contract</option>
+				</select>
+			</div>
+			
+		<br>
+		
+			<div align=center>
+				Reason for visit:&nbsp;&nbsp;
+				<select name=problem size=1>
+					<option selected disabled value=NA>Issue</option>
+					<option value=service_inq>Service Inquiry</option>
+					<option value=sale_inq>Sales Inquiry</option>
+					<option value=install>Software Install</option>
+					<option value=scam>Scam Victim</option>
+					<option value=tuneup>Tune Up</option>
+					<option value=diag>Diagnostics</option>
+					<option value=pickup>Pick Up</option>
+				</select>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				Resolution:&nbsp;&nbsp;
+				<select name=solution size=1>
+					<option selected disabled value=NA>Action</option>
+					<option value=sale>Sale</option>
+					<option value=order>Item Ordered</option>
+					<option value=cs>Counter Support</option>
+					<option value=chkin>Check In</option>
+					<option value=chkout>Check Out</option>
+					<option value=info>Gave Info</option>
+				</select>
+			</div>
+		
+		<br>
+		
+			<div align=center>
+				Notes:&nbsp;&nbsp;
+				<textarea name=notes cols=30 rows=4 placeholder="Enter Notes (140 characters or less)"></textarea>
+			</div>
+			
+		<br>
+			
+			<div align=center>
+				<button type=submit>Save</button>
+			</div>
+	</Form>
+	
+	
+</body>
+</html>
